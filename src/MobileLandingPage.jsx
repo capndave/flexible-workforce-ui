@@ -1,5 +1,10 @@
-import './App.css'
+import { Welcome } from './components'
 
-export function MobileLandingPage() {
-  return <div>Mobile Landing Page</div>
+export default function MobileLandingPage() {
+  return (
+    <>
+      <Welcome userName='Leeah'/>
+      <div>Mobile Landing Page</div>
+    </> 
+  )
 }
